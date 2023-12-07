@@ -1,0 +1,11 @@
+.TextInSection{
+    display: flex;
+    margin: 30px 0 60px 0;
+    width: 65%;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    font-size: 1rem;
+    font-family: Raleway;
+    font-weight: 300;
+}

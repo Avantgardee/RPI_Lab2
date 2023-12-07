@@ -1,0 +1,10 @@
+.nameOfSection{
+width: 100%;
+    display: flex;
+    justify-content: center;
+    font-size: 2rem;
+    font-family: Playfair Display;
+    color: white;
+    margin-top: 50px;
+    text-align: center;
+}

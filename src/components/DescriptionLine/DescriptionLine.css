@@ -1,0 +1,30 @@
+.DescriptionLine{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    color: white;
+    margin-top: 30px;
+}
+.parametr{
+    font-family: Raleway;
+    font-weight: 100;
+    font-size: 1rem;
+    word-wrap: break-word;
+    width: 100%;
+}
+.textFacts{
+    font-family: Raleway;
+    font-weight: 400;
+    word-wrap: break-word;
+    font-size: 1rem;
+    display:inline;
+}
+
+@media screen and (max-width: 1000px) {
+    .parametr{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}

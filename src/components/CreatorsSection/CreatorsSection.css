@@ -1,0 +1,21 @@
+.Creators{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    background-color: #131210;
+}
+.CreatorsSection{
+    background-color: #131210;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+@media screen and (max-width: 1000px) {
+    .Creators{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}

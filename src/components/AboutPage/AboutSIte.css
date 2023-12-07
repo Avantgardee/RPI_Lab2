@@ -1,0 +1,8 @@
+.TextSection{
+    width: 100%;
+    background-color: #131210;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}

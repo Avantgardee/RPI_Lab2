@@ -1,0 +1,14 @@
+.SerialOfTheDaySection{
+    width: 100%;
+    background-color: #131210;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.stripes{
+    width: 96%;
+    border: 1px dashed white;
+    margin: 0px;
+    padding: 0px;
+}
