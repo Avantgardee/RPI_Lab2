@@ -1,20 +1,23 @@
-import {BrowserRouter, Routes, Route} from 'react-router-dom';
+import {BrowserRouter, Routes, Route} from "react-router-dom";
 import "./main.css";
 import MainPage from "./pages/MainPage/MainPage";
 import React from "react";
 import SearchSeriesPage from "./pages/SearchSeriesPage/SearchSeriesPage";
 import SeriesPage from "./pages/SeriesPage/SeriesPage";
+import Header from "./components/Header/Header";
+
 function App() {
   return (
-      <BrowserRouter>
-        <main>
-          <Routes>
-            <Route path="/series/" element={<MainPage />} />
-            <Route path="/searchSeries/" element={<SearchSeriesPage />} />
-            <Route path="/SeriesPage/" element={<SeriesPage />} />
-          </Routes>
-        </main>
-      </BrowserRouter>
+    <BrowserRouter>
+      <main>
+        <Header/>
+        <Routes>
+          <Route path="/series/" element={<MainPage />} />
+          <Route path="/searchSeries/" element={<SearchSeriesPage />} />
+          <Route path="/SeriesPage/:id" element={<SeriesPage />} />
+        </Routes>
+      </main>
+    </BrowserRouter>
   );
 }
 

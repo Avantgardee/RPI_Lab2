@@ -1,24 +1,26 @@
 
 import "./mainMenu.css";
 import { Link } from "react-router-dom";
+import React from "react";
+
 const Menu = (props) => {
 
-    return (
-        <div className="navbar">
-            <i className="fa-solid fa-clapperboard"></i>
-            <div className="buttons">
-                    <Link to={"/series/"} className={"navlink home " + (props.page == "home"  ? "page_now" : "")}>
+  return (
+    <div className="navbar">
+      <i className="fa-solid fa-clapperboard"></i>
+      <div className="buttons">
+        <Link to={"/series/"} className={"navlink home " + (props.page == "home"  ? "page_now" : "")}>
                         ГЛАВНАЯ
-                    </Link>
+        </Link>
 
-                    <Link to={"/searchSeries/"} className={"navlink search " + (props.page == "search" ? "page_now" : "")}>
+        <Link to={"/searchSeries/"} className={"navlink search " + (props.page == "search" ? "page_now" : "")}>
                         СПИСОК СЕРИАЛОВ
-                    </Link>
+        </Link>
 
-            </div>
-            <i className="fa-solid fa-earth-americas"></i>
-        </div>
-    );
+      </div>
+      <i className="fa-solid fa-earth-americas"></i>
+    </div>
+  );
 };
 
 export default Menu;

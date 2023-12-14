@@ -1,11 +1,11 @@
-import React from 'react';
+import React from "react";
 import "./TextSection.css";
 const TextInSection = (props) => {
-    return (
-        <div className="TextInSection">
-            {props.text}
-        </div>
-    );
+  return (
+    <div className="TextInSection">
+      {props.text}
+    </div>
+  );
 };
 
 export default TextInSection;
