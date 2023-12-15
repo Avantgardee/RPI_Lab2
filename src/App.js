@@ -4,13 +4,11 @@ import MainPage from "./pages/MainPage/MainPage";
 import React from "react";
 import SearchSeriesPage from "./pages/SearchSeriesPage/SearchSeriesPage";
 import SeriesPage from "./pages/SeriesPage/SeriesPage";
-import Header from "./components/Header/Header";
 
 function App() {
   return (
     <BrowserRouter>
       <main>
-        <Header/>
         <Routes>
           <Route path="/series/" element={<MainPage />} />
           <Route path="/searchSeries/" element={<SearchSeriesPage />} />

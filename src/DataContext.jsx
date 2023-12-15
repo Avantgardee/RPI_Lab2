@@ -1,13 +1,13 @@
 import React, { useContext } from "react";
 import { createContext } from "react";
 import db from "./assets/db.json";
+import { getLangOrSetDefault } from "./utils/Cookies";
 
 const DatabaseContext = createContext(db["ru"]);
 
 export function DatabaseProvider({ children }) {
 
-  // TODO ЗАМЕНИТЬ
-  const lang = "ru";
+  const lang = getLangOrSetDefault().toLocaleLowerCase();
 
 
   return (

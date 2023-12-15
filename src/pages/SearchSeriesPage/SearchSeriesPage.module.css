@@ -1,0 +1,12 @@
+.SearchSingerWrap {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items:center;
+
+  padding: 10vh 0 10vh 0;
+}
+
+
+
+

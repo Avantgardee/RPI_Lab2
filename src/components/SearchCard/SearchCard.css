@@ -1,0 +1,85 @@
+.CardsWrapper {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  gap: 30px;
+  width: 70%;
+}
+
+
+.NotFound {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  height: 100px;
+  color: #FFFFFF;
+}
+
+.SearchCard {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; 
+  align-items: center;
+  padding: 26px;
+  gap: 30px;
+  border-radius: 4px;
+  background-color: #1E1E1E;
+  height: 600px;
+  width: 30%;
+  text-decoration: none;
+  color: #000000;
+}
+
+.SearchCard:active {
+  cursor: pointer;
+  transform: translateY(10px);
+}
+
+.SearchCard:hover {
+  cursor: pointer;
+}
+
+.Info {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  width: 70%;
+  gap: 15px;
+
+
+}
+
+.ImgWrap {
+  max-width: 465px;
+  overflow: hidden;
+  border-radius: 4px;
+}
+
+.Facts {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+}
+
+@media (max-width: 1489px) {  
+  .SearchCard {
+    margin-left: 25px;
+  }
+}
+@media (max-width: 1439px) {  
+  .SearchCard {
+    margin-left: 0;
+  }
+}
+
+@media (max-width: 700px) {  
+  .ImgWrap {
+    display: none;
+  }
+}

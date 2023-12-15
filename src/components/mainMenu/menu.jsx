@@ -1,7 +1,7 @@
-
+import React from "react";
 import "./mainMenu.css";
 import { Link } from "react-router-dom";
-import React from "react";
+import LanguageButton from "../LangButton/LanguageButton";
 
 const Menu = (props) => {
 
@@ -18,7 +18,10 @@ const Menu = (props) => {
         </Link>
 
       </div>
-      <i className="fa-solid fa-earth-americas"></i>
+      <LanguageButton>
+        <i className="fa-solid fa-earth-americas"></i>
+      </LanguageButton>
+      
     </div>
   );
 };
