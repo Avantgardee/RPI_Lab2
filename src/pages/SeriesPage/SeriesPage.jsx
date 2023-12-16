@@ -7,6 +7,7 @@ import styles from "./SeriesPage.module.css";
 import Timeline from "../../components/Timeline/Timeline";
 import Map from "../../components/Map/Map"
 import Menu from "../../components/mainMenu/menu";
+import { getLangOrSetDefault } from "../../utils/Cookies.js";
 
 function getEmbeded(url) {
     const regExp = /^.*(youtu.be\/|v\/|u\/\w\/|embed\/|watch\?v=|&v=)([^#&?]*).*/;
@@ -47,7 +48,11 @@ const SeriesPage = () => {
                     </SeriesSection>
 
                     <section className="TextSection">
-                        <SectionName name = "Галерея"/>
+                    {
+                        getLangOrSetDefault() === "En"
+                        ? <SectionName name = "Gallery"/>
+                        : <SectionName name = "Галерея"/>
+                    }
                     </section>
 
                     <section>
@@ -59,7 +64,11 @@ const SeriesPage = () => {
                     </section>
                     
                     <section className="TextSection">
-                        <SectionName name = "Трейлер"/>
+                    {
+                        getLangOrSetDefault() === "En"
+                        ? <SectionName name = "Trailer"/>
+                        : <SectionName name = "Трейлер"/>
+                    }
                     </section>
 
                     <section className={styles.VideoSection}>
@@ -73,7 +82,11 @@ const SeriesPage = () => {
 
 
                     <section className="TextSection">
-                        <SectionName name = "История сериала"/>
+                    {
+                        getLangOrSetDefault() === "En"
+                        ? <SectionName name = "History of the series"/>
+                        : <SectionName name = "История сериала"/>
+                    }
                     </section>
 
                     <Timeline timeline={series.timeline}/>

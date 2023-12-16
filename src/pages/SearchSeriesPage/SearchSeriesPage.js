@@ -5,6 +5,7 @@ import SectionName from "../../components/SectionName/SectionName";
 import { useDatabase } from "../../DataContext";
 import SearchInput from "../../components/SearchInput/SearchInput"
 import SearchCard from "../../components/SearchCard/SearchCard";
+import { getLangOrSetDefault } from "../../utils/Cookies.js";
 
 const SearchSeriesPage = () => {
   const db = useDatabase();
@@ -57,7 +58,11 @@ const SearchSeriesPage = () => {
       <div className={styles.SearchSingerWrap}>
       
         <section className="TextSection">
-          <SectionName name = "Галерея"/>
+        {
+          getLangOrSetDefault() === "En"
+            ? <SectionName name = "Gallery"/>
+            : <SectionName name = "Галерея"/>
+        }
         </section>
 
         <SearchInput onSearch={findSeries} id={"intro"}></SearchInput>

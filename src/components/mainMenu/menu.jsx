@@ -2,6 +2,7 @@ import React from "react";
 import "./mainMenu.css";
 import { Link } from "react-router-dom";
 import LanguageButton from "../LangButton/LanguageButton";
+import { getLangOrSetDefault } from "../../utils/Cookies.js";
 
 const Menu = (props) => {
 
@@ -10,11 +11,19 @@ const Menu = (props) => {
       <i className="fa-solid fa-clapperboard"></i>
       <div className="buttons">
         <Link to={"/series/"} className={"navlink home " + (props.page == "home"  ? "page_now" : "")}>
-                        ГЛАВНАЯ
+        {
+          getLangOrSetDefault() === "En"
+            ? "GENERAL"
+            : "ГЛАВНАЯ"
+        }
         </Link>
 
         <Link to={"/searchSeries/"} className={"navlink search " + (props.page == "search" ? "page_now" : "")}>
-                        СПИСОК СЕРИАЛОВ
+        {
+          getLangOrSetDefault() === "En"
+            ? "SERIES LIST"
+            : "СПИСОК СЕРИАЛОВ"
+        }
         </Link>
 
       </div>
