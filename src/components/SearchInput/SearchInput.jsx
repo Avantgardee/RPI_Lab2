@@ -3,15 +3,21 @@ import "./SearchInput.css";
 import SearchIcon from "@mui/icons-material/Search";
 import InputBase from "@mui/material/InputBase";
 import InputAdornment from "@mui/material/InputAdornment";
+import { getLangOrSetDefault } from "../../utils/Cookies.js";
 
 function SearchInput({onSearch, id}) {
   const [inputValue, setInputValue] = useState("");
- 
-
+  
+  let HelpInputStr; 
+  {
+    getLangOrSetDefault() === "En"
+    ? HelpInputStr = "I am looking for..."
+    : HelpInputStr = "Я ищу..."
+  }
   return (
     <div className="Root" id={id}>
       <InputBase
-        placeholder="I am looking for..."
+        placeholder = {HelpInputStr}
         className="Input"
         style={{
           color: "#68759E",
