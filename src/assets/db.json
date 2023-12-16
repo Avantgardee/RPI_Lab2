@@ -104,7 +104,7 @@
                     "name": "Доктор Кто",
                     "year": "1963",
                     "country": "Великобритания",
-                    "genre": "фантастика, драма, приключения",
+                    "genre": "научная фантастика, драма, приключения",
                     "writers": "Дональд Уилсон, Роберт Холмс, Малкольм Халк",
                     "seasons": "26",
                     "time": "25",
@@ -130,7 +130,7 @@
                     },
                     {
                         "title": "3",
-                        "description": "После временного прекращения в 1989 году, \"Доктор Кто\" возрождается. Дэвид Теннант в роли Десетого Доктора привлекает новое поколение зрителей.",
+                        "description": "После временного прекращения в 1989 году, \"Доктор Кто\" возрождается. Дэвид Теннант в роли десятого Доктора привлекает новое поколение зрителей.",
                         "date": "2005"
                     },
                     {
@@ -179,7 +179,7 @@
                     },
                     {
                         "title": "3",
-                        "description": "Сериал празднует свой 20-летний юбилей и продолжает быть одним из самых долгоживущих и успешных австралийских телесериалов.                        ",
+                        "description": "Сериал празднует свой 20-летний юбилей и продолжает быть одним из самых долгоживущих и успешных австралийских телесериалов.",
                         "date": "2005"
                     },
                     {
@@ -297,6 +297,300 @@
         ]
     },
     "en": {
-        
+        "Series": [
+            {
+                "ID": "simpsons",
+                "mainInfo": {
+                    "name": "The Simpsons",
+                    "year": "1989",
+                    "country": "USA",
+                    "genre": "cartoons, comedy",
+                    "writers": "James L. Brooks, Matt Groening, Carolyn Omni",
+                    "seasons": "33",
+                    "time": "22",
+                    "article": "The Simpson family — daddy Homer, mom Marge, daughters Lisa and little Maggie, and obnoxious teenager Bart — live in the medium-sized town of Springfield. Homer works at the local nuclear power plant, Marge takes care of the house and children, inquisitive Lisa is doing well in school, and Bart is always getting into trouble.",
+                    "imagePath": "series1.jpg"
+                },
+                "ytlink": "https://www.youtube.com/watch?v=XPG0MqIcby8",
+                "places": {
+                    "latitude": "33.8958",
+                    "longitude": "-118.2208",
+                    "title": "Compton"
+                },
+                "timeline": [
+                    {
+                        "title": "1",
+                        "description": "The first episode of The Simpsons goes off the air. This event becomes the starting point for a long and successful history of the animated series.",
+                        "date": "1989"
+                    },
+                    {
+                        "title": "2",
+                        "description": "Homer Simpson utters his famous phrase \"D'oh!\" for the first time. The phrase would later become iconic and is widely used in pop culture.",
+                        "date": "1991"
+                    },
+                    {
+                        "title": "3",
+                        "description": "\"The Simpsons\" is becoming a long-running animated series, surpassing the number of seasons of other famous TV shows.",
+                        "date": "1997"
+                    },
+                    {
+                        "title": "4",
+                        "description": "With its 18th season, \"The Simpsons\" becomes the longest-running animated series in American television history, surpassing the record set by \"The Flintstones.\"",
+                        "date": "2007"
+                    }
+                ],
+                "gallery": [
+                    "600x900.webp",
+                    "simpsony-1.jpg",
+                    "The_Simpsons_Game_XBOX_360_Cover.jpg",
+                    "the-simpsons-tv-series-cast-wallpaper-109911.0.0.jpeg",
+                    "_106190438_gettyimages-900187162.jpg"
+                ] 
+            },
+            {
+                "ID": "guidinlight",
+                "mainInfo": {
+                    "name": "Guiding light",
+                    "year": "1952",
+                    "country": "USA",
+                    "genre": "drama",
+                    "writers": "Christopher Dunn, Lloyd Gold, Jill Laurie Hurst, David Kreutzmann",
+                    "seasons": "57",
+                    "time": "43",
+                    "article": "The story focuses on the Bauer family and other Springfield residents, their joys, hardships and events that shape the characters' life stories. \"The Guiding\" Light is a unique guide through the history and evolution of family values over many decades.",
+                    "imagePath": "30314458b9f84f31599a807edd334dcf.jpg"
+                },
+                "ytlink": "https://www.youtube.com/watch?v=O4Xb17kSttY",
+                "places": {
+                    "latitude": "33.8958",
+                    "longitude": "-118.2208",
+                    "title": "Compton"
+                },
+                "timeline": [
+                    {
+                        "title": "1",
+                        "description": "\"The Guiding Light\" is airing for the first time. The series starts as a radio program and then becomes one of the longest-running television series in history.",
+                        "date": "1952"
+                    },
+                    {
+                        "title": "2",
+                        "description": "The series is moving from radio to television. This marks a new era for \"The Guiding Light\", attracting viewers from different platforms.",
+                        "date": "1956"
+                    },
+                    {
+                        "title": "3",
+                        "description": "\"The Guiding Light\" reaches its peak, attracting millions of viewers. The storyline of family relationships and life's hardships becomes a key element of success.",
+                        "date": "1983"
+                    },
+                    {
+                        "title": "4",
+                        "description": "After more than half a century, \"The Guiding Light\" is closing. A change in television trends and a decline in interest in daytime dramas were the factors that led to the end of the series.",
+                        "date": "2009"
+                    }
+                ],
+                "gallery": [
+                    "backdrop-1920.jpg",
+                    "glight2009_wide-8953f1072c097927c45cd3894c05eafd16dd41c5-s1100-c50.jpg",
+                    "e1241302effe0575404c09750775a159.jpg",
+                    "gl-cast-final-2009-xl-01.webp"
+                ] 
+            },
+            {
+                "ID": "doctorwho",
+                "mainInfo": {
+                    "name": "Doctor Who",
+                    "year": "1963",
+                    "country": "UK",
+                    "genre": "science fiction, drama, adventure",
+                    "writers": "Donald Wilson, Robert Holmes, Malcolm Hulk",
+                    "seasons": "26",
+                    "time": "25",
+                    "article": "BBC British science fiction television series about a mysterious time traveler known as \"The Doctor\" who, along with his companions, explores time and space, solving various problems and fighting evil.",
+                    "imagePath": "81yu0hLoWmL._AC_UF1000,1000_QL80_.jpg"
+                },
+                "ytlink": "https://www.youtube.com/watch?v=tEkC6InjWQ8",
+                "places": {
+                    "latitude": "33.8958",
+                    "longitude": "-118.2208",
+                    "title": "Compton"
+                },
+                "timeline": [
+                    {
+                        "title": "1",
+                        "description": "The first episode of \"Doctor\" Who is out. The series was created as an attempt to create an educational program for children, combining entertainment and popular science elements.",
+                        "date": "1963"
+                    },
+                    {
+                        "title": "2",
+                        "description": "Tom Baker, the fourth actor to play the role of the Doctor, becomes one of the most recognizable and popular incarnations of the character, leaving a vivid mark on the history of the series.",
+                        "date": "1974"
+                    },
+                    {
+                        "title": "3",
+                        "description": "After a temporary hiatus in 1989, \"Doctor Who\" is reborn. David Tennant as the Doctor attracts a new generation of viewers.",
+                        "date": "2005"
+                    },
+                    {
+                        "title": "4",
+                        "description": "Matt Smith becomes the eleventh Doctor. During this period, the series gains international recognition and great popularity outside the UK.",
+                        "date": "2010"
+                    }
+                ],
+                "gallery": [
+                    "MV5BZjM0N2I0OTktN2NmOS00YThmLTlkODMtMWQyOTQ4MDlkMzcxXkEyXkFqcGdeQXVyMTUzMTg2ODkz._V1_FMjpg_UX1000_",
+                    "p0gpxrx6.jpg",
+                    "71XPVYAU+cL._AC_UF1000,1000_QL80_.jpg",
+                    "_131601898_photo02-11-2023171229.jpg",
+                    "103940.jpg"
+                ] 
+            },
+            {
+                "ID": "neighbours",
+                "mainInfo": {
+                    "name": "Neighbors",
+                    "year": "1985",
+                    "country": "Australia",
+                    "genre": "drama, melodrama",
+                    "writers": "Reg Watson, John Hanlon, Jeff Truman",
+                    "seasons": "32",
+                    "time": "22",
+                    "article": "The series follows the lives and problems of ordinary people living in the fictional Melbourne suburb of Erinsborough. The action takes place mainly in the homes of the residents of Ramsey Street and the surrounding streets, as well as in the bar, café, hotel and local newspaper office, all located in the Lassiter Complex.",
+                    "imagePath": "MV5BZGYxODZhZjYtYTc5NC00NmE1LTg0N2UtNGYyMmZiOGU5NzVjXkEyXkFqcGdeQXVyNjYyNDMwOQ@@._V1_.jpg"
+                },
+                "ytlink": "https://www.youtube.com/watch?v=TSfQUbL8Akc",
+                "places": {
+                    "latitude": "33.8958",
+                    "longitude": "-118.2208",
+                    "title": "Compton"
+                },
+                "timeline": [
+                    {
+                        "title": "1",
+                        "description": "\"Neighbors\" makes its broadcast debut. The series is about the residents of a neighborhood in the Warlunga area and is quickly gaining popularity in Australia.", 
+                        "date": "1985"
+                    },
+                    {
+                        "title": "2",
+                        "description": "\"Neighbors\" becomes the first Australian television series to be broadcast in the United States. This opens up new opportunities for the international popularity of Australian dramas.",
+                        "date": "1987"
+                    },
+                    {
+                        "title": "3",
+                        "description": "The series is celebrating its 20th anniversary and continues to be one of Australia's longest-running and most successful television series.",
+                        "date": "2005"
+                    },
+                    {
+                        "title": "4",
+                        "description": "\"Neighbors\" is reaching the 7,000-episode mark, underscoring its status as a long-term historical project.",
+                        "date": "2014"
+                    }
+                ],
+                "gallery": [
+                    "MV5BNTE2MTM2MDQ5NV5BMl5BanBnXkFtZTgwMDYwMTY1MTE@._V1_.jpg",
+                    "57564191-10795385-image-m-12_1652047919754.avif",
+                    "MV5BMDkwZjI4MjUtZmI2MC00YzM3LThkZmItZjlhNGFhNGQwNWQ0XkEyXkFqcGdeQXVyNjYyNDMwOQ@@._V1_.jpg",
+                    "download.jpeg",
+                    "maxresdefault.jpg"
+                ] 
+            },
+            {
+                "ID": "worldsomething",
+                "mainInfo": {
+                    "name": "As the World Turns",
+                    "year": "1956",
+                    "country": "USA",
+                    "genre": "soap opera",
+                    "writers": "Gene Passanante, Judy Tate, Melissa Salmons",
+                    "seasons": "11",
+                    "time": "43",
+                    "article": "The action of the series is set in the fictional town of Oakdale. The long story centers on the relationships and difficulties of its inhabitants.",
+                    "imagePath": "download (1).jpeg"
+                },
+                "ytlink": "https://www.youtube.com/watch?v=NdVFKtj2qI4",
+                "places": {
+                    "latitude": "33.8958",
+                    "longitude": "-118.2208",
+                    "title": "Compton"
+                },
+                "timeline": [
+                    {
+                        "title": "1",
+                        "description": "The series debut of \"As the World Turns\". The series was created in the format of an opera and told about the lives of families in the fictional town of Okaka, Illinois.",
+                        "date": "1956"
+                    },
+                    {
+                        "title": "2",
+                        "description": "\"As the World Turns\" becomes the first television series to be broadcast in color. This event brings a new standard of quality to the series.",
+                        "date": "1964"
+                    },
+                    {
+                        "title": "3",
+                        "description": "The series is celebrating its 30th anniversary, establishing itself as one of the pillars of American television.",
+                        "date": "1988"
+                    },
+                    {
+                        "title": "4",
+                        "description": "The last episode of \"As the World Turns\" is airing. The series is coming to an end after 54 years of continuous broadcasting. This event was the end of the era of classic soap operas on American television.",
+                        "date": "2010"
+                    }
+                ],
+                "gallery": [
+                    "MV5BMTQxNDg5MTkyOF5BMl5BanBnXkFtZTgwODU3MDU2MTE@._V1_.jpg",
+                    "MV5BNDkzMGE5NmQtYTBiMS00ZDMzLThlMjMtZWU4NzczNWFmYTRkXkEyXkFqcGdeQXVyMzkyOTQ0NzY@._V1_.jpg",
+                    "download (2).jpeg",
+                    "MV5BMjI5NDYwNTc0NF5BMl5BanBnXkFtZTgwMTY3MDU2MTE@._V1_.jpg",
+                    "download (3).jpeg"
+                ] 
+            },
+            {
+                "ID": "daysoflife",
+                "mainInfo": {
+                    "name": "Days of our lives",
+                    "year": "1965",
+                    "country": "USA",
+                    "genre": "soap opera",
+                    "writers": "Richard Culliton, Rick Drogon",
+                    "seasons": "59",
+                    "time": "30/60",
+                    "article": "A series about the lives of middle-class American psychiatrist families, the Hortons and the Bradys, with their problems and vicissitudes in the fictional town of Salem, also touching on medical and psychological themes.",
+                    "imagePath": "nbc-days.webp"
+                },
+                "ytlink": "https://www.youtube.com/watch?v=LGPQjPbX3CQ",
+                "places": {
+                    "latitude": "33.8958",
+                    "longitude": "-118.2208",
+                    "title": "Compton"
+                },
+                "timeline": [
+                    {
+                        "title": "1",
+                        "description": "\"Days of Our Lives\" debuted on NBC. The series was created by Ted and Betty Corley.",
+                        "date": "1965"
+                    },
+                    {
+                        "title": "2",
+                        "description": "The series took part in an international filming project for the first time in soap opera history, shooting several episodes in Australia.",
+                        "date": "1993"
+                    },
+                    {
+                        "title": "3",
+                        "description": "On the 38th anniversary of the series, Raymond-James McDonald, played by Tommy Horton, was honored with a star on the Walk of Stars in Hollywood.",
+                        "date": "2003"
+                    },
+                    {
+                        "title": "4",
+                        "description": "The series celebrated its 50th anniversary. This event was expressed in special episodes and the return of many famous characters.",
+                        "date": "2015"
+                    }
+                ],
+                "gallery": [
+                    "nbc-days.webp",
+                    "2503237d710678c3cd688f7ba29659f5.jpg",
+                    "daysaward1965a.jpeg",
+                    "d913d8b7a47b16815dd668124ce7c634.jpg",
+                    "original.jpeg"
+                ] 
+            }
+        ]
     }   
 }
