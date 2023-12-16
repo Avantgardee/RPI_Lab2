@@ -1,23 +1,42 @@
-import React from "react";
+import React, { useMemo } from "react";
+import { useParams } from "react-router-dom";
+import { useDatabase } from "../../DataContext"
 import "./SerialOfTheDaySection.css";
 import SectionName from "../SectionName/SectionName";
 import SeriesSection from "../SeriesSection/SeriesSection";
+import { getLangOrSetDefault } from "../../utils/Cookies.js";
+
 const SerialOfTheDaySection = () => {
+  
+  const { id } = useParams();
+  const db = useDatabase();
+
+  const series = useMemo(
+      () => db.Series.find((e) => e.ID === "simpsons"),
+      [id, db]
+  );
+
   return (
 
     <div className="SerialOfTheDaySection">
       <hr className="stripes"/>
-      <SectionName name = "CЕРИАЛ ДНЯ"/>
-      <SeriesSection
-        imagePath="series1.jpg"
-        name="Симпсоны"
-        year="1989"
-        country="США"
-        genre="мультфильм, комедия"
-        writers="Джеймс Л. Брукс, Мэтт Грейнинг, Кэролин Омни"
-        seasons="33"
-        time="22 минуты"
-        article="Семейство Симпсонов — папаша Гомер, мама Мардж, дочери Лиза и маленькая Мэгги, и несносный подросток Барт — проживают в среднестатистическом городке Спрингфилд. Гомер трудится на местной атомной станции, Мардж занимается домом и детьми, любознательная Лиза отлично учится в школе, а Барт постоянно попадает во всякие переделки."/>
+      {
+          getLangOrSetDefault() === "En"
+            ? <SectionName name = "SERIAL OF THE DAY"/>
+            : <SectionName name = "CЕРИАЛ ДНЯ"/>
+      }
+      <SeriesSection 
+          imagePath={series.mainInfo.imagePath}
+          name={series.mainInfo.name}
+          year={series.mainInfo.year}
+          country={series.mainInfo.country}
+          genre={series.mainInfo.genre}
+          writers={series.mainInfo.writers}
+          seasons={series.mainInfo.seasons}
+          time={series.mainInfo.time}
+          article={series.mainInfo.article}
+      />
+
 
       <hr className="stripes"/>
     </div>

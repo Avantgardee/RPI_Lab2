@@ -6,6 +6,8 @@ import CardMedia from '@mui/material/CardMedia';
 import Button from '@mui/material/Button';
 import Typography from '@mui/material/Typography';
 import "./UserProfileCard.css";
+import { getLangOrSetDefault } from "../../utils/Cookies.js";
+
 const UserProfileCard = (props) => {
 
     const imagePath = "/img/creator" + props.imageNum + ".png";
@@ -29,7 +31,13 @@ const UserProfileCard = (props) => {
                 </Typography>
             </CardContent>
             <CardActions >
-                <a href={props.creatorsLink} target="_blank" rel="noopener noreferrer" className="go">Перейти</a>
+                <a href={props.creatorsLink} target="_blank" rel="noopener noreferrer" className="go">
+                {
+                    getLangOrSetDefault() === "En"
+                    ? "Follow"
+                    : "Перейти"
+                }
+                </a>
             </CardActions>
         </Card>
     );
