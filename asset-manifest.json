@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/RPI_Lab2/static/css/main.7f813003.css",
-    "main.js": "/RPI_Lab2/static/js/main.a5307e02.js",
+    "main.js": "/RPI_Lab2/static/js/main.a2b6900d.js",
     "static/media/header_back.jpg": "/RPI_Lab2/static/media/header_back.5dd9bb95a6d3657c10c8.jpg",
     "index.html": "/RPI_Lab2/index.html",
     "main.7f813003.css.map": "/RPI_Lab2/static/css/main.7f813003.css.map",
-    "main.a5307e02.js.map": "/RPI_Lab2/static/js/main.a5307e02.js.map"
+    "main.a2b6900d.js.map": "/RPI_Lab2/static/js/main.a2b6900d.js.map"
   },
   "entrypoints": [
     "static/css/main.7f813003.css",
-    "static/js/main.a5307e02.js"
+    "static/js/main.a2b6900d.js"
   ]
 }
