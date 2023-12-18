@@ -10,7 +10,7 @@ const Menu = (props) => {
     <div className="navbar">
       <i className="fa-solid fa-clapperboard"></i>
       <div className="buttons">
-        <Link to={"/series/"} className={"navlink home " + (props.page == "home"  ? "page_now" : "")}>
+        <Link to={"/"} className={"navlink home " + (props.page == "home"  ? "page_now" : "")}>
         {
           getLangOrSetDefault() === "En"
             ? "GENERAL"
